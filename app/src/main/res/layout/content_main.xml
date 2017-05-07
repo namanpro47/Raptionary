@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.naman.mobileapps.raptionary.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@color/lightpurple">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/lightpurple">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/yellow">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dp"
+                android:padding="5dp"
+                android:text="Artist Name: "
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/artistEdit"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:paddingBottom="0dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/yellow">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Song Name: "
+                android:textSize="15sp"
+                android:paddingTop="0dp"/>
+
+            <EditText
+                android:id="@+id/songEdit"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/yellow">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dp"
+                android:padding="5dp"
+                android:text="Urban Dictionary Lookup: "
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/urbanEdit"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:paddingBottom="0dp"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/urban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:text=""
+            android:textSize="25sp"
+            android:textIsSelectable="true"
+            android:width="2dp"
+            android:background="@color/lighterpurple"/>
+
+        <TextView
+            android:id="@+id/lyrics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textIsSelectable="true"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

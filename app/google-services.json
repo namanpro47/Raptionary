@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "567379055400",
+    "firebase_url": "https://raptionary-31457.firebaseio.com",
+    "project_id": "raptionary-31457",
+    "storage_bucket": "raptionary-31457.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567379055400:android:08d807743f7f5366",
+        "android_client_info": {
+          "package_name": "com.naman.mobileapps.raptionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567379055400-jjg7odqgqpru2fd44t3u8tm29jh4a65u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-R6ODkp-6IVBU_VJj7Ht-AhWwLp1XXA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
